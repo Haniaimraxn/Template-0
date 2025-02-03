@@ -64,7 +64,8 @@ function ViewCart() {
                 </td>
                 <td className="py-4 text-right text-gray-700 text-xs md:text-sm sm:text-base">Rs: 250,000.00</td>
                 <td className="py-4 text-center">
-                    <RiDeleteBin6Line className="hidden lg:table-cell text-red-600 ml-4 cursor-pointer hover:text-red-800" size={20} />
+                   <span className="hidden lg:table-cell text-red-600 ml-4 cursor-pointer hover:text-red-800 size={2}"  />
+                    <RiDeleteBin6Line />
                 </td>
             </tr>
         </tbody>

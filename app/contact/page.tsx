@@ -45,8 +45,8 @@ function Contact() {
     <div className="flex flex-col gap-8">
         <div className="flex items-center space-x-4 my-6">
             <div>
-                <span className='flex'>
-                    <IoLocationSharp size={25} className="text-4xl text-primary" />
+                <span className='flex text-4xl text-primary'>
+                    <IoLocationSharp size={25} />
                     <h3 className="font-semibold text-xl ml-4">Address</h3>
                 </span>
                 <p className='ml-10'>
@@ -58,8 +58,8 @@ function Contact() {
         </div>
         <div className="flex items-center space-x-4 my-6">
             <div>
-                <span className='flex'>
-                    <FaPhoneAlt size={25} className="text-4xl text-primary" />
+                <span className='flex text-4xl text-primary'>
+                    <FaPhoneAlt size={25}/>
                     <h3 className="font-semibold ml-4 text-lg">Phone</h3>
                 </span>
                 <p className='ml-10'>Mobile : +(84)546-6789</p>
@@ -68,8 +68,8 @@ function Contact() {
         </div>
         <div className="flex items-center space-x-4 my-6">
             <div>
-                <span className='flex'>
-                    <BsFillClockFill size={25} className="text-4xl text-primary" />
+                <span className='flex text-4xl text-primary' >
+                    <BsFillClockFill size={25}  />
                     <h3 className="ml-4 font-semibold text-lg">Working Time</h3>
                 </span>
                 <p className='ml-10'>Monday-Friday: 9:00 - 

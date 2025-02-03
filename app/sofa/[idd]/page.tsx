@@ -114,9 +114,9 @@ function AsgaardSofa() {
                         <div className="flex justify-between items-center mt-4">
                             <span>Share:</span>
                             <div className="flex space-x-2">
-                               <span className='cursor-pointer'><BsFacebook className="text-blue-600" /></span>
-                                <FaLinkedin className="text-blue-700 cursor-pointer" />
-                                <FaTwitter className="text-blue-400 cursor-pointer" />
+                               <span className='cursor-pointer text-blue-600'><BsFacebook /></span>
+                                <span className='cursor-pointer text-blue-700 '><FaLinkedin /></span>
+                                <span className='text-blue-400 cursor-pointer'></span><FaTwitter />
                             </div>
                         </div>
                     </div>

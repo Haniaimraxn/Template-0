@@ -9,12 +9,12 @@ function ShopLine() {
       {/* Left Section */}
       <div className="flex items-center gap-4 flex-wrap mb-4 sm:mb-0">
         <div className="flex items-center gap-1 cursor-pointer">
-          <MdOutlineFilterList className="text-xl" />
+          <span className='text-xl'></span><MdOutlineFilterList  />
           <p className='ml-2'>Filter</p>
         </div>
         <div className="flex items-center gap-2">
-          <PiCirclesFourFill className="text-xl cursor-pointer" />
-          <HiRectangleStack className="text-xl ml-2 cursor-pointer" />
+         <span className='text-xl cursor-pointer'></span> <PiCirclesFourFill />
+          <span text-xl ml-2 cursor-pointer></span><HiRectangleStack  />
         </div>
         <div className="w-[2px] h-10 bg-gray-400 mx-4"></div>
         <p>Showing 1-6 of 32 results</p>
